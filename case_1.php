@@ -8,7 +8,6 @@ $products = (array)[
     ['name'=>'Bottles of wine', 'amount'=>2, 'price'=>10, 'tax'=>21] 
 ];
 
-
 $priceTotal= 0;
 $priceTotalWithTax= 0;
 $cartTotal = 0;
@@ -24,8 +23,6 @@ $priceTotalWithTax = $priceTotal + $tax;
 foreach($products as $i => $product) {
     $cartTotal += $product['amount'];
 }
-
-
 
 ?>
 
